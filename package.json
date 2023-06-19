@@ -5,6 +5,8 @@
     "build": "next build"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^38.0.1",
+    "@ckeditor/ckeditor5-react": "^6.0.0",
     "@prisma/client": "^4.15.0",
     "next": "latest",
     "prisma": "^4.15.0",
