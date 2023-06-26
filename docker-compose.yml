@@ -19,6 +19,7 @@ services:
       - ./lib:/app/lib
       - ./prisma:/app/prisma
       - ./utils:/app/utils
+      - ./components:/app/components
     
   database:
     image: mysql:5.7
