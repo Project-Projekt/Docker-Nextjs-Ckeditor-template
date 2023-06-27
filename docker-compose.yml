@@ -20,7 +20,6 @@ services:
       - ./prisma:/app/prisma
       - ./utils:/app/utils
       - ./components:/app/components
-    
   database:
     image: mysql:5.7
     restart: unless-stopped

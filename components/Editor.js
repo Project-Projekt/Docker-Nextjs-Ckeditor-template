@@ -29,7 +29,7 @@ export default function Editor({ onChange, editorLoaded, name, value }) {
                     }}
 
                     config={{simpleUpload: {
-                        uploadUrl: 'http://localhost:3000/api/test'
+                        uploadUrl: 'http://localhost:3000/api/upload'
                     }}}
                 />
             ) : (
