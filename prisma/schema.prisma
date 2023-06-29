@@ -8,8 +8,9 @@ datasource db {
   url      = "mysql://user:password123@database/test?charset=utf8mb4"
 }
 
-model test {
-  id         BigInt  @id @unique(map: "id")
+model pages {
+  id        BigInt @id @default(autoincrement())
+  title     String @unique
   text      String
+  thumbnail String
 }
-
